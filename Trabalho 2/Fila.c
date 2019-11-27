@@ -6,9 +6,6 @@ int num;
 struct no *prox;
 };
 
-/* pilha insere no começo e remove no começo
- fila insere no começo e remove no fim*/
-
 struct no *push(struct no **lista,int num){
 	struct no *v1;
 	struct no *aux;
