@@ -7,8 +7,6 @@ struct no *prox;
 };
 
 int y=0;
-/* pilha insere no começo e remove no começo
- fila insere no começo e remove no fim*/
 
 struct no *push(struct no **lista,int num){
 	struct no *v1;
